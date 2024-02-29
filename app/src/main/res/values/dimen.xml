@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_width">250dp</dimen>
+    <dimen name="card_height">150dp</dimen>
+
+    <!--    나머지-->
+    <dimen name="elevation_back">1dp</dimen>
+
+    <!--    카드 최상단-->
+    <dimen name="elevation_front">4dp</dimen>
+
+<!--    카드가 넘어가는 애니메이션 -> 오른쪽으로 넘어가도록-->
+    <dimen name="translation_move_x">120dp</dimen>
+    <dimen name="translation_move_y">-200dp</dimen>
+</resources>
