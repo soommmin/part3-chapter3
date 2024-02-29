@@ -61,7 +61,13 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun openDetail(view: View, cardName: CharSequence) {
-
+        view.transitionName = "card"
+        val optionsCompat =
+            ActivityOptionsCompat.makeSceneTransitionAnimation(
+                this@MainActivity,
+                Pair(view, view.transitionName)
+            )
+        DetailActivity.start(this, cardName.toString(), view.backgroundTintList, optionsCompat)
     }
 
     private fun collapsedCardCompletedListener(@IdRes endStateId: Int) {
