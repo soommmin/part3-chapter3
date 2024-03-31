@@ -18,7 +18,7 @@
    - BindingAdapter는 안드로이드의 DataBinding 라이브러리에서 제공하는 기능 중 하나로, XML 레이아웃에서 사용자가 정의한 커스텀 속성에 대한 바인딩 로직을 정의할 수 있게 해주는 어노테이션입니다.
      일반적으로 안드로이드에서 기본적으로 제공되지 않는 커스텀 속성이나 UI 동작을 구현하기 위해 사용됩니다. 예를 들어, RecyclerView와 같은 리스트나 그리드 뷰에서 데이터를 표시할 때, 데이터와 UI 간의 연결을 지원      하기 위해 사용할 수 있습니다.
 4. [Shared Elements Transition](https://android-developers.googleblog.com/2018/02/continuous-shared-element-transitions.html)
-  - Shared Elements Transition(공유 요소 전환)은 안드로이드에서 화면 전환 시 두 화면 간에 공유되는 요소들의 전환을 부드럽게 처리하는 기술입니다. 이를 통해 사용자가 화면 간 전환을 할 때, 공유되는 요소들이       자연스럽게 이동하고 크기 및 모양이 변화하는 효과를 제공하여 사용자 경험을 향상시킵니다.
+   - Shared Elements Transition(공유 요소 전환)은 안드로이드에서 화면 전환 시 두 화면 간에 공유되는 요소들의 전환을 부드럽게 처리하는 기술입니다. 이를 통해 사용자가 화면 간 전환을 할 때, 공유되는 요소들이       자연스럽게 이동하고 크기 및 모양이 변화하는 효과를 제공하여 사용자 경험을 향상시킵니다.
 5. [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=ko)
 
 
